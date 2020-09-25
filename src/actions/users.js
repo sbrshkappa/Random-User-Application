@@ -4,3 +4,10 @@ export const addUsers = (users) => {
      users
     };
    };
+
+export const searchUsers = (value) => {
+    return {
+        type: 'SEARCH_USERS',
+        value
+    };
+};
